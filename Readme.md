@@ -24,7 +24,7 @@ WebStandard does not support listen, you might want to export default Elysia.fet
 ### Backend
 - Folder: `packages/backend`
 - ElysiaJS using `bun create elysia packages/backend`
-- exported Elysia app type via `export type App = typeof app`
+- [exported Elysia app](packages/backend/src/index.ts#L9) type via `export type App = typeof app`
 
 ### UI
 - Folder: `packages/ui`
