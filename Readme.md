@@ -1,8 +1,8 @@
-# Reproduction Repo: Elysia Eden and Vite + React not compatible
+# Reproduction Repo: Elysia Eden and Vite + React in Monorepo not compatible
 
 ## The issue
 
-When using `@elysia/eden` in React, following error is being thrown:
+When using `@elysia/eden` in React + Vite in a monorepo setup, following error is being thrown:
 
 ```
 WebStandard does not support listen, you might want to export default Elysia.fetch instead
